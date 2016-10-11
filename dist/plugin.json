@@ -1,6 +1,6 @@
 {
   "name": "SimpleJson",
-  "id": "grafana-simple-json-datasource",
+  "id": "yewill-simple-json-datasource",
   "type": "datasource",
 
   "staticRoot": ".",
@@ -23,11 +23,11 @@
       "large": "src/img/simpleJson_logo.svg"
     },
     "links": [
-      {"name": "GitHub", "url": "https://github.com/grafana/simple-json-datasource"},
+      {"name": "GitHub", "url": "https://github.com/ye-will/simple-json-datasource"},
       {"name": "MIT License", "url": "https://github.com/grafana/simple-json-datasource/blob/master/LICENSE"}
     ],
-    "version": "1.2.2",
-    "updated": "2016-05-11"
+    "version": "1.2.2.a",
+    "updated": "2016-10-11"
   },
 
   "dependencies": {

@@ -124,8 +124,8 @@ System.register(['lodash'], function (_export, _context) {
         }, {
           key: 'mapToTextValue',
           value: function mapToTextValue(result) {
-            return _.map(result.data, function (d, i) {
-              return { text: d, value: i };
+            return _.map(result.data, function (d) {
+              return { text: d, value: d };
             });
           }
         }, {
